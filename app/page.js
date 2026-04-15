@@ -333,7 +333,7 @@ export default function HomePage() {
                                 <input value={joinCode} onChange={(event) => setJoinCode(event.target.value.toUpperCase())} placeholder="ABCDE" />
                             </label>
                             <Button onClick={joinRoom}>Join room</Button>
-                            <p className="muted">Use the same browser to reconnect to an in-progress game.</p>
+                            <p className="muted">Make sure you type in a name in the Identity Section first. Too lazy to add another name field here.</p>
                         </div>
                     </section>
                 ) : (
